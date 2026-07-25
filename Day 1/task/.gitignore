@@ -1,0 +1,14 @@
+# Ignore JetBrains Academy / EduTools metadata files
+*.yaml
+*.yml
+*.md
+*.pdf
+
+# Ignore IDE settings & virtual environments
+.idea/
+.venv/
+__pycache__/
+*.pyc
+
+# Whitelist main repo README if you have one
+!README.md
