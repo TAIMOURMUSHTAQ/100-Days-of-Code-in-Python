@@ -17,3 +17,6 @@ table=PrettyTable()
 table.add_column("Pokeymon",["Pikachu" ,"Squirl" ,"Elsiveer"],"l")
 table.add_column("Type",["Animal","Bird","Snail"],"c")
 print(table)
+table.align="r" #whole table alignment
+print(table.align)
+table.align["Pokeymon"]="l"
